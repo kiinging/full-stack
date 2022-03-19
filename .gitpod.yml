@@ -2,13 +2,12 @@
 # Please adjust to your needs (see https://www.gitpod.io/docs/config-gitpod-file)
 # and commit this file to your remote git repository to share the goodness with others.
 
+    
 tasks:
   - init: npm install 
-    command: |
-      export HMR_HOST='gp url 3000'
-      npm run dev
+    command: npm run dev
 
 ports:
   - port:  3000
-    onOpen: open-browser  
+    onOpen: open-preview  
 
