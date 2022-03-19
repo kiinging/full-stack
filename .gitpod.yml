@@ -5,7 +5,7 @@
     
 tasks:
   - init: npm install 
-    command: Npm run dev
+    command: npm run dev
 
 ports:
   - port:  3000
